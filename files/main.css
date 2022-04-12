@@ -12,10 +12,10 @@
     user-select: none;  
 }
 
-.bg {
+/**.bg {
     background: url('../icons/background.gif');
 }
-
+*/
 body, .bg {
     background-position: center;
     background-repeat: no-repeat;
