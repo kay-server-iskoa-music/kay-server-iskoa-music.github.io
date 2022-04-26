@@ -74,6 +74,7 @@ font-size: 12px;
 }
 
 .cell {
+    height: 38px;
     width: 142px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
