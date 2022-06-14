@@ -418,23 +418,31 @@ color: white;
 }
 
 .blog-section p{
-	color: #e0e0e0;
-	margin-top: 10px;
+	font-size: 17px;
+	color: #bbbbbb;
+	margin-top: 1px;
 }
 .blog-section .blog-posts {
 	margin-bottom: -70px;
 }
 
+
 .blog-post {
 	margin-bottom: 70px;
 }
 
-.blog-post img:pics {
-	margin-bottom: 34px;
-	min-width: 100%;
 
-	
-	  display:block;
+.hr {
+	border: 1px solid rgb(128, 128, 128);
+}
+.blog-post img {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 20%;
+
+	display: block;
+	  
 	
 }
 
@@ -477,19 +485,21 @@ color: white;
   background-color: #365190;
   color: #ffffff !important;
 }
+.blog-post .site-btn {
+	margin-bottom: 10px;
+	
+	
+}
+
 
 .blog-post h3 {
 	color: #fff;
 	margin-bottom: 10px;
-}
-
-.blog-post h4 {
-	color: #fff;
-	margin-bottom: 10px;
+	font-size: 22px;
 }
 
 .blog-post .post-metas {
-	margin-bottom: 30px;
+	margin-bottom: 12px;
 }
 
 .blog-post .post-metas .post-meta {
@@ -533,7 +543,7 @@ color: white;
 .blog-post.featured-post,
 .blog-post.review-post,
 .blog-post.single-post {
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 }
 
 .blog-post.featured-post p,
@@ -780,14 +790,16 @@ Blog list section
 .blog-list-section {
 	background: #222222;
 }
-.small-blog-list .
+.small-blog-list
 .small-blog-list .sb-item {
 	margin-bottom: 43px;
 	position: relative;
 }
 .small-blog-list .site-btn {
-margin-top: 30px;
+margin-top: 5px;
+
 }
+
 .small-blog-list .site-btn:hover{
 -webkit-box-shadow:0 0 15px #ffffff; 
     -moz-box-shadow: 0 0 15px #ffffff;
