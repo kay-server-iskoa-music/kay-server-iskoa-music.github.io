@@ -17,6 +17,12 @@ h6 {
 	color: #111111;
 	font-weight: 700;
 }
+ol {
+	font-size: 17px;
+	color: #bbbbbb;
+	margin-top: 1px;
+	
+}
 
 h1 {
 	font-size: 70px;
