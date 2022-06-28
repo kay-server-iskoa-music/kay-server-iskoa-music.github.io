@@ -130,6 +130,7 @@ Commom elements
 	border-radius: 50px;
 	text-transform: uppercase;
 	background: #96c3fb;
+	transition: 0.3s linear;
 	color: #161616;
 	line-height: 1;
 	cursor: pointer;
