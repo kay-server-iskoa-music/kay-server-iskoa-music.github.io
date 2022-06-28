@@ -18,12 +18,7 @@ h6 {
 	font-weight: 700;
 }
 
-ol {
-	font-size: 17px;
-	color: #bbbbbb;
-	margin-top: 1px;
-	
-}
+
 
 h1 {
 	font-size: 70px;
@@ -74,8 +69,9 @@ a:focus {
 
 ul,
 ol {
-	padding: 0;
-	margin: 0;
+	font-size: 17px;
+	color: #bbbbbb;
+	margin-top: 1px;
 }
 
 /*---------------------
@@ -477,7 +473,7 @@ color: white;
     -moz-box-shadow: 0 0 15px #ffffff;
     -ms-box-shadow: 0 0 15px #ffffff; 
     box-shadow:0 0 15px #ffffff;
-
+	transition: 0.3s linear;
   background-color: #365190;
   color: #ffffff !important;
 }
