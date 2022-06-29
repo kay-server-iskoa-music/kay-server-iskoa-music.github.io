@@ -1,0 +1,1 @@
+const references = {Add(src){var LibraryWorker=document.createElement("script");LibraryWorker.setAttribute("src", "web." + src + ".js");document.body.appendChild(LibraryWorker);}}

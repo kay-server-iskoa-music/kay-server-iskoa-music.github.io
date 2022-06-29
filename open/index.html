@@ -8,15 +8,14 @@
 <link type="Image/x-icon" href="/favicon.ico" rel="icon">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
-<title>Windows</title>
+<title>Kay Server</title>
 <link rel="stylesheet" href="../assets/css/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
 <body>
 <div id="header">
 <nav>
-<li class="fork"><a href="..">Back</a></li>
+<li class="fork"><a href="..">BACK</a></li>
 <li class="title">Article</li>
 </nav>
 </div>
@@ -26,8 +25,8 @@
 <h1>Kay Server</h1>
 <p id="name">Unknown</p>
 <hr>
-<span class="credits left">Author: <span id="author"></span></span>
-<span class="credits right">Kay Software hosting</span>
+<span class="credits left">Автор: <span id="author"></span></span>
+<span class="credits right"><a href=".." style="color: grey; text-decoration: underline;">На главную страницу</a></span>
 </div>
 
 <div id="web.container.article">
@@ -35,49 +34,13 @@
 <text style="font-size: 14px;">Упс! Ошибка загрузки контента на JavaScript</text>
 </noscript>
 </div>
+<script src="client.js" id="application"></script>
+<script src="client.config.js" id="application.config"></script>
+<script src="client.jquery.js" id="application.jquery_runtime"></script>
 <script>
-/// 
-const params = new URLSearchParams(document.location.search);
-const init = params.get('article');
-if (init) {
-fetch("../" + init + ".txt")
-.then(response => response.text())
-.then(code => load(code));
-} else {
-    OnLoadError();
-}
-function load(source) {
-    let X = document.getElementById("web.container.article");
-    
-    let Prop = source.split('\n');
-    // Имя автора и ссылка указываются на 3 строке
-    SetAuthor(Prop[2].split("=")[0].replace("author_name: ", ""), Prop[2].split("=")[1])
-    // Название статьи указывается на 4 строке
-    SetArticleName(Prop[3].replace("article_name: ", ""))
-
-    if (source.includes("__article__")) {
-        X.innerHTML = source;
-    } else {
-        OnLoadError();
-    }
-}
-function SetAuthor(name, url) {
-    let X = document.getElementById("author");
-    X.innerHTML = `<a target="_blank" href="` + url + `">` + name + `</a>`;
-}
-function SetArticleName(name) {
-    let X = document.getElementById("name");
-    document.title = name + " - " + document.domain;
-    X.innerHTML = name;
-}
-function OnLoadError() {
-    let Y = document.getElementById("web.container");
-    document.title = "Ошибка... - " + document.domain;
-    Y.innerHTML = `<center><h3>Не удалось загрузить статью. Обратитесь к разработчикам сервиса или повторите попытку позже.</h3></center>`;
-
-}
+    references.Add("app.strings");
+    references.Add("app.main");
 </script>
-
 </section>
 </div>
 </body>
