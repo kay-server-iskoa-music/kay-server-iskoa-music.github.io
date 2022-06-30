@@ -2,6 +2,7 @@
 __article__
 author_name: ISKOA=https://t.me/iskoaofficial
 article_name: Как использовать телефон вместо микрофона на компьютере?
+publication_date: 1 Июля 2022
 -->
 <link rel="stylesheet" href="/css/style.css">
 <p style = "display: inline-block; font-size: 12px; text-shadow: none;padding: 3px 16px;margin-bottom: 25px;color: #313131;background: #10ddb4;" ><b>1  Июля 2022</b></p>
