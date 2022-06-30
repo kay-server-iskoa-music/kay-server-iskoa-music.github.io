@@ -17,13 +17,15 @@ fetch(content + ArticleName + "." + content_data)
 }
 function load(source) {
     let X = document.getElementById("web.container.article");
-    
     let Prop = source.split('\n');
     SetAuthor(Prop[2].split("=")[0].replace("author_name: ", ""), Prop[2].split("=")[1]);
     SetArticleName(Prop[3].replace("article_name: ", ""));
+    let pub_date = Prop[4].replace("publication_date: ", "");
+    let pub_str = _PublicationDate.replace("{%s}", pub_date)
 
     if (source.includes("__article__")) {
-        X.innerHTML = source;
+
+        X.innerHTML = pub_str + source;
     } else {
         OnLoadError();
     }
