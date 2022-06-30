@@ -1,0 +1,22 @@
+﻿<!--
+__article__
+author_name: ISKOA=https://t.me/iskoaofficial
+article_name: Как использовать телефон вместо микрофона на компьютере?
+-->
+<link rel="stylesheet" href="/css/style.css">
+<p style = "display: inline-block;
+    font-size: 12px;
+    text-shadow: none;
+    padding: 3px 16px;
+    margin-bottom: 25px;
+    color: #313131;
+    background: #10ddb4;" ><b>1  Июля 2022</b></p>
+<p>Салют всем читателям! Если ты тут, значит не будем долго базарить, так как ты уже сам знаешь зачем ты тут. Чтож погнали! (как вам новый фон?)))</p>
+<p>Увы тут без софта вообще никак{{{.
+<p>И так, скачиваем софт-клиент для компьютера по ссылке <a href="https://wolicheng.com/womic/download.html" target="_blank" rel="noopener" title="WO Mic">WO Mic</a>. После APK файл для Андроид из плей маркета по ссылке <a href="https://play.google.com/store/apps/details?id=com.wo.voice2" target="_blank" rel="noopener" title="Wo Mic APK">Wo Mic APK</a>&nbsp;или для <a href="https://itunes.apple.com/us/app/id1260978417" target="_blank" rel="noopener" title="iPhone">iPhone.&nbsp;</a>&nbsp;Также чтобы клиент работал коректно, нужно скачать&nbsp;<span>&nbsp;</span><a href="https://aka.ms/vs/16/release/vc_redist.x86.exe" class="external">VC runtime re-distributable (x86)</a>ю Установите клиент на компьютер. Соедините телефон с компьютером через USB провод (и убедитесь что все драйвера телефона установлены). Откройте Wo Mic из телефона и разрешите все нужные права. После чего нажмите на кнопку PLAY вверху справа! ОККККК. Идем дальше. Зайдите на Wo Mic Client.</p>
+	<img src="/img/blog/womic.png" alt="WoMic">
+	<p>Когда все збс, внизу будет не "Отключено", а "Подключено". После нажмите на "Подключение" вверху слево.</p>
+	<img src="/img/blog/womic2.png" alt="Wo Mic">
+	<p>Обана, через bluetooth тоже можно?... Нищтяк. ДАЖЕ ЧЕРЕЗ WiFi...OMG...Если вы через USB выбирайте USB и "Подключиться". Поздравляю, ты в эфире))))</p>
+	<p>Ну чтож, надеюсь все поняли. В случай появлении проблем, обращайтесь ко мне <a href="https://t.me/iskoaofficial" target="_blank" rel="noopener" title="Iskoa">ISKOA</a>. Интересно, чек)</p>
+	<p>- - Глаза нужны чтобы читать эти статьи)))) - -</p>

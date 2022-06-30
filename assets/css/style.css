@@ -218,25 +218,44 @@ hr { border: 0; outline: none; height: 3px; background: transparent url("../imag
 
 dt { color: #F0E7D5; font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-weight: normal; }
 
-#header { user-select: none; z-index: 100; left: 0; top: 0px; height: 60px; width: 100%; position: fixed; background: #000000; border-bottom: 4px solid #780000; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25); }
+#header { user-select: none; z-index: 100; left: 0; top: 0px; height: 60px; width: 100%; position: fixed; background: #000000; border-bottom: 4px solid #48a7ff6b; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25); }
 #header nav { max-width: 650px; margin: 0 auto; padding: 0 10px; background: blue; margin: 6px auto; }
 #header nav li { font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal; list-style: none; display: inline; color: white; line-height: 50px; text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2); font-size: 14px; }
+
 #header nav li a {
-   color: white;
-    border: 1px solid #64a3ff;
-    background: linear_gradient(#6D8D15, #4D7A09);
-    border-radius: 2px;
-    box-shadow: inset 0px 1px 0px rgb(255 255 255 / 30%), 0px 3px 7px rgb(255 17 17 / 77%);
-    background-color: #3f9ee991;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height: 14px;
-    font-size: 14px;
-    display: inline-block;
-    text-align: center;
-    transition: 0.2s linear;
+	display: inline-block;
+	border: none;
+	font-size: 14px;
+	font-weight: 100;
+	min-width: 50px;
+	padding: 10px 20px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	background: #4c9afa9a;
+	transition: 0.3s linear;
+	color: #ffffff;
+	line-height: 1;
+	cursor: pointer;
+	text-align: center;
 }
-#header nav li a:hover { background: linear_gradient(#0f6479, #0e7165); background-color: #0c444e; border: 1px solid #05fff3; box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px transparent; }
+
+#header nav li a:hover {
+-webkit-box-shadow:0 0 15px #ffffff; 
+    -moz-box-shadow: 0 0 15px #ffffff;
+    -ms-box-shadow: 0 0 15px #ffffff; 
+    box-shadow:0 0 15px #ffffff;
+}
+
+#header nav li a.sb-color {
+	background: #4b6cc9;
+	color: #fff;
+}
+
+#header nav li a.sb-color:hover {
+	color: #fff;
+}
+
+
 #header nav li.fork { float: left; margin-left: 0px; }
 #header nav li.panel2 { float: right; margin-left: 6px; }
 #header nav li.title { float: right; margin-right: 12px; font-size: 13px; font-weight: bold; }
