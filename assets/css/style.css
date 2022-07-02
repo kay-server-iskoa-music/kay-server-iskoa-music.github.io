@@ -21,10 +21,7 @@ p {
 	font-size: 16.9px;
 }
 
-::selection {
-   background: white; /* background default color */
-   color: black; /* Foreground default color */
-}
+
 
 
 /* Width */
@@ -202,7 +199,7 @@ h2 { font-size: 24px; }
 
 h4, h5, h6 { color: #e8e8e8; }
 
-h3 { font-size: 18px; line-height: 24px; font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-weight: normal; color: #b6b6b6; }
+h3 { font-size: 18px; padding-top: 90px; line-height: 24px; font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important; font-weight: normal; color: #b6b6b6; }
 
 a { color: #02d1d1; font-weight: 400; text-decoration: none; transition: 0.1s linear; }
 a:hover { color: #1bf2ef; }
@@ -463,16 +460,258 @@ END Header section
 #header nav li.title { float: right; margin-right: 12px; font-size: 13px; font-weight: bold; }
 
 section { max-width: 650px; padding: 30px 0px 50px 0px; margin: 20px 0; margin-top: 70px; }
-section #title { border: 0; outline: none; margin: 166px 0 50px 0; padding: 0 0 5px 0; }
+section #title { border: 0; outline: none; margin: 50px 0 50px 0; padding: 0 0 5px 0; }
 section #title h1 { font-family: "Ds_Stamper" ; font-weight: normal; font-size: 40px; text-align: center; line-height: 36px; }
 section #title p { color: #d7cfbe; font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal; font-size: 18px; text-align: center; }
 section #title .credits { font-size: 12.5px; font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal; color: #696969; margin-top: -10px; }
 section #title .credits.left { float: left; }
 section #title .credits.right { float: right; }
 
-@media print, screen and (max-width: 720px) { #title .credits { display: block; width: 100%; line-height: 30px; text-align: center; }
+/*@media print, screen and (max-width: 720px) { #title .credits { display: block; width: 100%; line-height: 30px; text-align: center; }
   #title .credits .left { float: none; display: block; }
   #title .credits .right { float: none; display: block; } }
 @media print, screen and (max-width: 480px) { #header { margin-top: -20px; }
   section { margin-top: 40px; }
-  nav { display: none; } }
+  nav { display: none; } }*/
+  @media (min-width: 1200px) {
+	.container {
+		max-width: 1176px;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1360px) {
+	.main-menu li a {
+		margin-right: 30px;
+	}
+	.header-add {
+		width: 35%;
+	}
+	.character-two .character-img {
+		bottom: -100px;
+	}
+	.character-three .character-img {
+		width: 40%;
+	}
+	.character-one .character-img,
+	.character-four .character-img {
+		bottom: 0;
+	}
+}
+
+/* Medium screen : 992px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.main-menu {
+		padding-left: 15px;
+	}
+	.main-menu li a {
+		margin-right: 15px;
+	}
+	.header-add {
+		width: 35%;
+	}
+	.social-links a {
+		margin-right: 60px;
+	}
+	.character-one .character-img,
+	.character-two .character-img,
+	.character-four .character-img {
+		bottom: 0;
+	}
+	.character-three .character-img {
+		width: 44%;
+	}
+}
+
+/* Tablet :768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.site-logo {
+		padding: 21px 30px 20px;
+	}
+	.main-menu {
+		padding-left: 15px;
+	}
+	.main-menu li a {
+		margin-right: 15px;
+	}
+	.header-add {
+		display: none;
+	}
+	.slide h2 {
+		font-size: 70px;
+	}
+	.blog-section .blog-posts {
+		margin-bottom: 0;
+	}
+	.small-blog-list,
+	.site-pagination {
+		margin-bottom: 70px;
+	}
+	.sb-cata-list {
+		width: 360px;
+	}
+	.social-links a {
+		margin-right: 12px;
+	}
+	.about-game-img {
+		width: auto;
+		top: 0;
+		padding-top: 50px;
+	}
+	.work-steps:after {
+		left: 0px;
+		top: 55px;
+	}
+	.work-step-box h4 {
+		font-size: 18px;
+	}
+	.characters-section {
+		padding-bottom: 0;
+	}
+	.character-one .character-img,
+	.character-two .character-img,
+	.character-three .character-img,
+	.character-four .character-img {
+		position: relative;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		width: 100%;
+		padding-top: 70px;
+	}
+	.blog-post.single-post {
+		margin-bottom: 70px;
+	}
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 767px) {
+	.site-logo {
+		padding: 20px 15px;
+	}
+	.main-menu,
+	.header-add {
+		display: none;
+	}
+	.header-section {
+		background: #222222;
+	}
+	.slicknav_menu {
+		display: block;
+		background: transparent;
+		padding: 0;
+		margin-top: -43px;
+	}
+	.slicknav_nav {
+		background: #353535;
+	}
+	.slicknav_nav ul {
+		margin: 0;
+	}
+	.slicknav_nav .slicknav_row,
+	.slicknav_nav a {
+		padding: 10px 20px;
+		margin: 0;
+	}
+	.slicknav_nav a:hover {
+		border-radius: 0;
+	}
+	.slicknav_nav .slicknav_row:hover {
+		border-radius: 0;
+	}
+	.slicknav_btn {
+		margin: 0 0 10px 0;
+		position: relative;
+		top: -31px;
+		right: 15px;
+		background: #353535;
+	}
+	.slide h2 {
+		font-size: 70px;
+	}
+	.blog-section .blog-posts {
+		margin-bottom: 0;
+	}
+	.small-blog-list,
+	.site-pagination {
+		margin-bottom: 70px;
+	}
+	.copyright {
+		text-align: center;
+	}
+	.social-links {
+		text-align: center;
+	}
+	.social-links a {
+		margin-right: 20px;
+	}
+	.social-links a i {
+		margin-right: 0;
+	}
+	.social-links a span {
+		display: none;
+	}
+	.page-top-section h2 {
+		font-size: 55px;
+	}
+	.about-game-img {
+		width: auto;
+		top: 0;
+		padding-top: 50px;
+	}
+	.work-steps:after {
+		display: none;
+	}
+	.testimonial-slider {
+		margin: 0;
+	}
+	.testimonial-text {
+		padding: 48px 40px 55px;
+	}
+	.characters-section {
+		padding-bottom: 0;
+	}
+	.character-one .character-img,
+	.character-two .character-img,
+	.character-three .character-img,
+	.character-four .character-img {
+		position: relative;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		width: 100%;
+		padding-top: 70px;
+	}
+	.blog-post.single-post {
+		margin-bottom: 70px;
+	}
+}
+
+/* Small Mobile :320px. */
+
+@media only screen and (max-width: 479px) {
+	.slide h2 {
+		font-size: 50px;
+	}
+	.small-blog-list .sb-item img,
+	.comments-list img {
+		float: none;
+		margin-bottom: 15px;
+	}
+	.page-top-section h2 {
+		font-size: 45px;
+	}
+	.testimonial-slider .owl-dots {
+		position: relative;
+		bottom: 0;
+		right: 0;
+		padding-left: 46px;
+	}
+	.game-title h2 {
+		font-size: 36px;
+	}
+}

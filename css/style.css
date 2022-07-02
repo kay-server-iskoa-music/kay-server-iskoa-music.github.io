@@ -121,40 +121,6 @@ Helper CSS
 Commom elements
  -----------------------*/
 
-/* buttons */
-
-.site-btn {
-	display: inline-block;
-	border: none;
-	font-size: 14px;
-	font-weight: 600;
-	min-width: 164px;
-	padding: 21px 47px;
-	border-radius: 50px;
-	text-transform: uppercase;
-	background: #96c3fb;
-	transition: 0.3s linear;
-	color: #161616;
-	line-height: 1;
-	cursor: pointer;
-	text-align: center;
-}
-
-.site-btn:hover {
--webkit-box-shadow:0 0 15px #ffffff; 
-    -moz-box-shadow: 0 0 15px #ffffff;
-    -ms-box-shadow: 0 0 15px #ffffff; 
-    box-shadow:0 0 15px #ffffff;
-}
-
-.site-btn.sb-color {
-	background: #4b6cc9;
-	color: #fff;
-}
-
-.site-btn.sb-color:hover {
-	color: #fff;
-}
 
 /* Preloder */
 
@@ -473,6 +439,7 @@ color: white;
 	font-weight: 700;
 	padding: 3px 16px;
 	margin-bottom: 25px;
+	margin-top: 25px;
 	background: #10ddb4;
 }
 .blog-post .site-btn:hover {

@@ -1,7 +1,7 @@
 ﻿<!--
 __article__
 author_name: ISKOA=https://t.me/iskoaofficial
-article_name: Как использовать телефон вместо микрофона на компьютере?
+article_name: Как использовать телефон вместо микрофона?
 publication_date: 1 Июля 2022
 -->
 <link rel="stylesheet" href="/css/style.css">
