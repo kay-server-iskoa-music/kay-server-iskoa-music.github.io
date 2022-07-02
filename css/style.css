@@ -19,7 +19,7 @@ h6 {
 	font-weight: 700;
 }
 .rf {
-	max-width: 100%;
+	max-width: 200%;
 
 }
 
@@ -1708,6 +1708,10 @@ Responsive
 		padding: 0;
 		margin-top: -43px;
 	}
+	.rf {
+		max-width: 100%;
+	
+	}
 	.slicknav_nav {
 		background: #353535;
 	}
@@ -1816,5 +1820,9 @@ Responsive
 	}
 	.game-title h2 {
 		font-size: 36px;
+	}
+	.rf {
+		max-width: 100%;
+	
 	}
 }
