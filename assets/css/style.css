@@ -64,6 +64,10 @@ h1 {
 	margin: 0.67em 0;
 	font-family: "Ds_Stamper";
 	 }
+	 .rf {
+		max-width: 200%;
+	
+	}
 
 h2 { font-size: 1.5em; margin: 0.83em 0; }
 
@@ -541,6 +545,10 @@ section #title .credits.right { float: right; }
 	.slide h2 {
 		font-size: 70px;
 	}
+	.rf {
+		max-width: 100%;
+	
+	}
 	.blog-section .blog-posts {
 		margin-bottom: 0;
 	}
@@ -604,6 +612,10 @@ section #title .credits.right { float: right; }
 		background: transparent;
 		padding: 0;
 		margin-top: -43px;
+	}
+	.rf {
+		max-width: 100%;
+	
 	}
 	.slicknav_nav {
 		background: #353535;
@@ -713,5 +725,9 @@ section #title .credits.right { float: right; }
 	}
 	.game-title h2 {
 		font-size: 36px;
+	}
+	.rf {
+		max-width: 100%;
+	
 	}
 }
