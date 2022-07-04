@@ -1,3 +1,3 @@
-const app_domain = "www.iskoa.ru";
+const app_domain = "localhost";
 const content = "../content/";
 const content_data = "txt";

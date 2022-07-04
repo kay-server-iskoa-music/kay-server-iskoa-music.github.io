@@ -1,0 +1,13 @@
+﻿<!--
+__article__
+author_name: ISKOA=https://t.me/iskoaofficial
+article_name: Как без установки запускать приложения из Google Play?
+publication_date: 4 Июля 2022
+-->
+<link rel="stylesheet" href="/css/style.css">
+<p>Типовая ситуация: ищешь подходящее приложение и сталкиваешься c кучей предложений. В поисковой выдаче Google Play десятки вариантов! Что релевантно запросу, а что — нет? Есть только один способ выяснить: протестировать. Не подошло первое — устанавливаем второе. Снова мимо? Значит, повезёт в следующий раз! Наверное.. Такие крысиные бега могут закончиться очень плохо: вирусы никто не отменял. И, да, систему можно вернуть. Вот только время — нет.</p>
+<p>Instant Apps — это спецфункция на смартфонах. Терроризируем Play Market сколько угодно! Без установок.</p>
+<p>1. Переходим в «Настройки» → раздел «Google».<br> 2. Выбираем пункт «Настройки приложений Google» → раздел «С мгновенным запуском». <br>3. Активируем переключатель «Обновить веб-ссылки».</p>
+<p>Готово! Теперь для поддерживаемых приложений появится кнопка «Попробовать». Жмём на неё, и.. мгновенный запуск! Удобнее всего через <a target="_blank" href="https://play.google.com/store/apps/collection/promotion_3002d0f_instantapps_featuredapps?clp=CjIKMAoqcHJvbW90aW9uXzMwMDJkMGZfaW5zdGFudGFwcHNfZmVhdHVyZWRhcHBzEEoYAw==:S:ANO1ljLU1H4&gsr=CjQKMgowCipwcm9tb3Rpb25fMzAwMmQwZl9pbnN0YW50YXBwc19mZWF0dXJlZGFwcHMQShgD:S:ANO1ljJCfwo">специальный раздел в Play Market.</a></p>
+<p>Желаю вам хорошо гулять в маркете. Интересно, чек)</p>
+<p style="font-size: 14px; color: gray; text-align: center;">-- В Google Play более 1млрд приложении и игр --</p>
