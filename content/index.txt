@@ -1,9 +1,13 @@
-﻿<!--
+<!--
 __article__
-author_name: ISKOA=https://t.me/iskoaofficial
+author_name: Iskoa=https://t.me/iskoaofficial
 article_name: Добро пожаловать!
-publication_date: 4 Июля 2022
+publication_date: 2 Августа 2022
 -->
+<h2>Как настроить автоматическую очистку диска?</h2>
+<p>Если ты ленивая жопа, и не смотришь за чистотой диска, то я очень сожалею бедному твоему компьютеру. Чтож, "маленькомягкие" разработали специально для вас ленивых, функцию...</p>
+<p><a target="_blank" href="/content/kak-nastroit-auto-clean-disk">Читать полностью</a></p>
+<hr class="hr"> 
 <h2>Ускоряем работу Google Chrome</h2>
 <p>Google Chrome сам по себе имеет просто огромнейший потенциал,  но в то-же время очень требователен к ресурсам. Однако, есть некоторые...</p>
 <p><a target="_blank" href="/content/turbo-work-google-chrome">Читать полностью</a></p>
