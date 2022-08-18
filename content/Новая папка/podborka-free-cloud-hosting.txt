@@ -1,0 +1,17 @@
+﻿<!--
+__article__
+author_name: ISKOA=https://t.me/iskoaofficial
+article_name: Подборка бесплатных облачных хранилищ!
+publication_date: 3 Июля 2022
+-->
+<link rel="stylesheet" href="/css/style.css">
+<p> <b>Облачное хранилища</b> - очень нужная фигня. Но к сожалению бесплатные хранилище оч мало, либо есть но дают очень мало место. </p>
+<p>И щас, я для вас подготовил 5 бесплатных облачных хранилищ с крупным объёмом для хранения.</p>
+<p>1. <a target="_blank" href="http://yunpan.360.cn/">Yunpan 360</a>  - 360 ГБ </p>
+<p>2. <a target="_blank" href="http://ozibox.com/">Ozibox</a>  - 100 ГБ </p>
+<p>3. <a target="_blank" href="http://shared.com/">Shared</a>  - 100 ГБ </p>
+<p>4. <a target="_blank" href="http://surdoc.com/">SurDoc</a>  - 100 ГБ </p>
+<p>5. <a target="_blank" href="http://adrive.com/">Adrive</a>  - 50 ГБ места для хранения ваших данных </p>
+<p>Помимо этих облачных хранилищ, существует достаточно много и других, но там бесплатного места дают значительно меньше, либо не дают вовсе.</p>
+<p>Надеюсь вам понравилось. Интересно, чек)</p>
+<p>-- Не смотри вниз иначе упадешь к чертям --</p>

@@ -1,0 +1,11 @@
+﻿<!--
+__article__
+author_name: ISKOA=https://t.me/iskoaofficial
+article_name: Как создать дипфейк в реальном времени?!
+publication_date: 3 Июля 2022
+-->
+<link rel="stylesheet" href="/css/style.css">
+<p>DeepFaceLive — нейросеть, которая подменяет лицо пользователя в видеозаписи на несуществующую модель. (САМ В ШОКЕ)</p>
+<p>Её можно использовать на стримах и в видеоконференциях, например, в Zoom. В основу лёг ИИ-проект DeepFaceLab, с помощью которого создано 95% популярных дипфейков на YouTube.</p>
+<p>Всё бесплатно, открытый исходный код DeepFaceLive, загрузка программы и инструкция по установке доступны на странице проекта <a target="_blank" href="https://github.com/iperov/DeepFaceLive">DeepFaceLive</a></p>
+<p>Кстати интересная хрень. Интересно, чек)</p>

@@ -1,0 +1,13 @@
+<!--
+__article__
+author_name: Iskoa=https://t.me/iskoaofficial
+article_name: Новости сайта
+publication_date: 1  Июня 2022
+-->
+<h2>Новый движок</h2>
+<p>Вчера вместе с <a href="https://kay-software.ru/dosx" target="_blank" rel="noopener" title="DosX"><strong>DosX</strong></a> поработали над движком для публикации статьей под названием...</p>
+<p><a target="_blank" href="/content/kay-war-noviy-dvijok">Читать полностью</a></p>
+<hr class="hr">
+<h2>Масштабное изменение</h2>
+<p>Раньше сайт iskoa.ru - был только сайтом для моей музыки. Но постепенно все меняется, и мы поумнеем. Я тоже поумнел) и постепенно буду писать для вас оч оч оч оч интересные статьи а главное полезные). Так вот, что...</p>
+<p><a target="_blank" href="/content/massive_change">Читать полностью</a></p>
