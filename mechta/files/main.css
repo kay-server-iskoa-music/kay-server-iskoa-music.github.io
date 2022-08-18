@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 600px) {
 .bg {
-    background: url('/img/icons/logo-mechta-bg.png');
+    background: url('https://www.iskoa.ru/img/icons/logo-mechta-bg.png');
 	background-position: center;
   background-size: cover;
   
