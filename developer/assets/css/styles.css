@@ -1,14 +1,18 @@
-
 /* ======= Base ======= */
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #e9e8e7;
-  background: #535353 ;
+  background: #535353;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-     background-image: url(https://www.iskoa.ru/developer/assets/images/back.jpg); 
+  background-image: url(https://www.iskoa.ru/developer/assets/images/back.jpg);
+   -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
 }
+
 h1,
 h2,
 h3,
@@ -28,14 +32,17 @@ a {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
+
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
   color: #2d844e;
 }
+
 a:focus {
   text-decoration: none;
 }
+
 .btn,
 a.btn {
   -webkit-transition: all 0.4s ease-in-out;
@@ -46,14 +53,17 @@ a.btn {
   padding: 8px 16px;
   font-weight: bold;
 }
+
 .btn .fa,
 a.btn .fa {
   margin-right: 5px;
 }
+
 .btn:focus,
 a.btn:focus {
   color: #fff;
 }
+
 a.btn-cta-primary,
 .btn-cta-primary {
   background: #73b7eb;
@@ -62,12 +72,14 @@ a.btn-cta-primary,
   font-weight: 600;
   text-transform: uppercase;
 }
+
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
   background: #1bfffc;
   border: 1px solid #1bfffc;
   color: #393939;
 }
+
 a.btn-cta-secondary,
 .btn-cta-secondary {
   background: #479FC8;
@@ -76,30 +88,37 @@ a.btn-cta-secondary,
   font-weight: 600;
   text-transform: uppercase;
 }
+
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
   background: #3893bd;
   border: 1px solid #3893bd;
   color: #fff;
 }
+
 .text-highlight {
   color: #32383e;
 }
+
 .label-theme {
   background: #3AAA64;
   font-size: 12px;
 }
+
 a.dotted-link {
   border-bottom: 1px dotted #778492;
   color: #778492;
 }
+
 a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
 }
+
 a.btn {
-	color: #000000;
+  color: #000000;
 }
+
 /*
 iframe {
 
@@ -117,34 +136,46 @@ iframe {
 .header {
   padding: 30px 0;
   background: #3b3b3b;
-   background-image: url(https://www.iskoa.ru/developer/assets/images/back.jpg); 
-   width: 100%; 
-   height: 100%;
+  background-image: url(https://www.iskoa.ru/developer/assets/images/back.jpg);
+   -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+  width: 100%;
+  height: 100%;
 }
+
 .header .btn {
   margin-top: 60px;
   font-weight: bold;
 }
+
 .header .profile-image {
   margin-right: 30px;
   border-radius: 50%;
   height: 200px;
   width: 200px;
 }
+
 .header .profile-content .name {
-  color: #ecfced;
+  text-shadow: 2px 2px 15px black, 2px 2px 15px black, 2px 2px 15px black, 2px 2px 10px black, 2px 2px 10px black;
+
+  color: #ececec;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
+
 .header .profile-content .desc {
-  color: #ecfced;
+  color: #e7f2f7;
   font-family: "Lato", arial, sans-serif;
+  text-shadow: 2px 5px 2px black, 0 0 2px black, 2px 5px 2px black;
   font-weight: 400;
   font-size: 24px;
   margin-top: 0;
   margin-bottom: 15px;
 }
+
 .header .profile-content .social a {
   background: #989898;
   width: 36px;
@@ -161,51 +192,63 @@ iframe {
   color: #fff;
   text-align: center;
 }
+
 .header .profile-content .social a:hover {
   background: #778492;
 }
+
 .header .profile-content .social a .fa {
   font-size: 20px;
   padding-top: 8px;
 }
+
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .section {
   margin-bottom: 30px;
 }
+
 .section .section-inner {
   background: #406088;
   padding: 30px;
 }
+
 .section .heading {
   margin-top: 0;
   margin-bottom: 15px;
   color: #d5cec1;
   font-size: 24px;
 }
+
 .section .content .more-link .fa {
   margin-right: 5px;
   font-size: 14px;
 }
+
 /* About Section */
 /* Latest Section */
 .latest .item {
   margin-bottom: 30px;
 }
+
 .latest .item .title {
   font-size: 18px;
   margin-top: 0;
 }
+
 .latest .item .title .label {
   margin-left: 5px;
   font-size: 12px;
 }
+
 .latest .item .title a {
   color: #e1e4e5;
 }
+
 .latest .item .title a:hover {
   color: #cfe1e4;
 }
@@ -213,31 +256,39 @@ iframe {
 .latest .divider {
   margin-bottom: 60px;
 }
+
 .latest .featured {
   margin-bottom: 60px;
 }
+
 .latest .featured .title {
   margin-bottom: 5px;
   font-size: 20px;
 }
+
 .latest .featured .summary {
   margin-bottom: 30px;
   color: #778492;
 }
+
 .latest .featured img {
   margin-bottom: 30px;
-  
+
 }
+
 .latest .featured .desc {
   margin-bottom: 30px;
 }
+
 .latest .featured-image {
   position: relative;
 }
+
 .latest .featured-image .text {
   background: #3AAA64;
   color: #fff;
 }
+
 .latest .featured-image .ribbon {
   position: absolute;
   top: -4px;
@@ -246,6 +297,7 @@ iframe {
   height: 110px;
   overflow: hidden;
 }
+
 .latest .featured-image .ribbon .text {
   font-family: 'Montserrat', sans-serif;
   position: relative;
@@ -264,6 +316,7 @@ iframe {
   -ms-transform: rotate(45deg) translate3d(0, 0, 0);
   -o-transform: rotate(45deg) translate3d(0, 0, 0);
 }
+
 .latest .featured-image .ribbon .text:before,
 .latest .featured-image .ribbon .text:after {
   content: '';
@@ -273,9 +326,11 @@ iframe {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
 }
+
 .latest .featured-image .ribbon .text:before {
   left: 0;
 }
+
 .latest .featured-image .ribbon .text:after {
   right: 0;
 }
@@ -285,7 +340,7 @@ p.platform {
   font-size: 15px;
   margin-right: 90%;
   margin-top: -5%;
-   
+
 }
 
 
@@ -294,31 +349,39 @@ p.platform {
   margin-right: 15px;
   color: #d5cec1;
 }
+
 .info .fa.fa-envelope-o {
   font-size: 14px;
 }
+
 .info ul {
   margin-bottom: 0;
 }
+
 .info li {
   margin-bottom: 15px;
 }
+
 .info li:last-child {
   margin-bottom: 0;
 }
+
 /* Skills Section */
 .skills .intro {
   margin-bottom: 30px;
 }
+
 .skills .skillset .item {
   margin-bottom: 30px;
 }
+
 .skills .skillset .level-title {
   font-size: 16px;
   position: relative;
   margin-top: 0;
   margin-bottom: 10;
 }
+
 .skills .skillset .level-title .level-label {
   color: #ccd1d6;
   font-size: 14px;
@@ -328,10 +391,12 @@ p.platform {
   right: 0;
   top: 0;
 }
+
 .skills .skillset .level-bar {
   height: 15px;
   background: #e8e8e8;
 }
+
 .skills .skillset .level-bar-inner {
   height: 15px;
   background: #66cb8c;
@@ -341,13 +406,16 @@ p.platform {
 .education .item {
   margin-bottom: 30px;
 }
+
 .education .item:last-child {
   margin-bottom: 0;
 }
+
 .education .item .title {
   font-size: 16px;
   margin-top: 0;
 }
+
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
   font-size: 13px;
@@ -355,31 +423,37 @@ p.platform {
   font-weight: 600;
   padding-left: 25px;
 }
+
 .education .item .university .year {
   color: #b0b7bf;
   font-weight: 500;
 }
+
 /* Language Section */
 .languages .item {
   margin-bottom: 15px;
 }
+
 .languages .item .title {
   color: #d5cec1;
 }
+
 .languages .item .level {
   color: #999;
 }
+
 .languages .item:last-child {
   margin-bottom: 0;
 }
+
 .languages .item .fa {
   color: #aae2a0;
 }
 
 .logoprofile {
-border-radius: 50%;
-width: 150px;
-    height: 150px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 
 }
 
@@ -389,33 +463,38 @@ width: 150px;
   .header {
     text-align: center;
   }
+
   .header .profile-image {
     float: none !important;
     margin: 0 auto;
-	border-radius: 50%;
-	height: 200px;
-	width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
   }
-  
+
   .header .profile-content {
 
     float: none !important;
     text-align: center;
   }
+
   .header .btn {
     margin-top: 30px;
     float: none !important;
   }
+
   .project-image {
     margin-bottom: 15px;
-	margin-left: 25%;
+    margin-left: 25%;
   }
+
   .platform {
-  margin-top: -10%;
-  margin-left: 43%;
+    margin-top: -10%;
+    margin-left: 43%;
   }
-  
+
 }
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
