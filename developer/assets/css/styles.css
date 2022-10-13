@@ -2,11 +2,12 @@
 /* ======= Base ======= */
 body {
   font-family: 'Lato', arial, sans-serif;
-  color: #e5d7be;
-  background: #535353;
+  color: #e9e8e7;
+  background: #535353 ;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+     background-image: url(https://www.iskoa.ru/developer/assets/images/back.jpg); 
 }
 h1,
 h2,
@@ -21,7 +22,7 @@ h6 {
 
 
 a {
-  color: #e5d7be;
+  color: #e9e8e7;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -55,17 +56,17 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #7fa27d;
-  border: 1px solid #7fa27d;
+  background: #73b7eb;
+  border: 1px solid #73b7eb;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
-  color: #fff;
+  background: #1bfffc;
+  border: 1px solid #1bfffc;
+  color: #393939;
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
@@ -95,6 +96,9 @@ a.dotted-link {
 a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
+}
+a.btn {
+	color: #000000;
 }
 /*
 iframe {
@@ -128,13 +132,13 @@ iframe {
   width: 200px;
 }
 .header .profile-content .name {
-  color: #e5d7be;
+  color: #ecfced;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 .header .profile-content .desc {
-  color: #d5cec1;
+  color: #ecfced;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -173,7 +177,7 @@ iframe {
   margin-bottom: 30px;
 }
 .section .section-inner {
-  background: #3b3b3b;
+  background: #406088;
   padding: 30px;
 }
 .section .heading {
@@ -200,10 +204,10 @@ iframe {
   font-size: 12px;
 }
 .latest .item .title a {
-  color: #778492;
+  color: #e1e4e5;
 }
 .latest .item .title a:hover {
-  color: #5f6b77;
+  color: #cfe1e4;
 }
 
 .latest .divider {
@@ -277,7 +281,7 @@ iframe {
 }
 
 p.platform {
-  color: #736e6a;
+  color: #dbdbdb;
   font-size: 15px;
   margin-right: 90%;
   margin-top: -5%;
@@ -392,7 +396,9 @@ width: 150px;
 	height: 200px;
 	width: 200px;
   }
+  
   .header .profile-content {
+
     float: none !important;
     text-align: center;
   }
