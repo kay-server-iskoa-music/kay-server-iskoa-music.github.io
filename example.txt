@@ -1,7 +1,0 @@
-<!--
-__article__
-author_name: DosX=https://kay-software.ru
-article_name: Привет, мир!
--->
-<h2>Заголовок</h2>
-<p>Ну допустим...</p>
